@@ -1,0 +1,13 @@
+POSITION_CODE,POSITION_NAME,ALIAS,MAIN_POSITION
+MC,Central Midfield,Number 8,Midfielder
+DM,Defensive Midfield,Number 6,Midfielder
+ST,Centre Forward,Number 9,Forward
+DL,Left Back,,Defender
+LW,Left Wing,,Forward
+GK,Goalkeeper,,Goalkeeper
+MR,Right Midfield,,Midfielder
+DC,Centre Back,,Defender
+ML,Left Midfield,,Midfielder
+RW,Right Wing,,Forward
+DR,Right Back,,Defender
+AM,Attacking Midfield,Number 10,Midfielder

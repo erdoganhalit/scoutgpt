@@ -1,0 +1,590 @@
+TEAM_NAME,TEAM_SHORT_NAME,TEAM_ID,LEAGUE_SLUG,LEAGUE_ID,LEAGUE_NAME,COUNTRY
+Real Madrid,Real Madrid,2829,laliga,8,LaLiga,Spain
+Barcelona,Barcelona,2817,laliga,8,LaLiga,Spain
+Girona FC,Girona,24264,laliga,8,LaLiga,Spain
+Atlético Madrid,Atl. Madrid,2836,laliga,8,LaLiga,Spain
+Athletic Club,Athletic Club,2825,laliga,8,LaLiga,Spain
+Real Sociedad,Real Sociedad,2824,laliga,8,LaLiga,Spain
+Real Betis,Betis,2816,laliga,8,LaLiga,Spain
+Villarreal,Villarreal,2819,laliga,8,LaLiga,Spain
+Valencia,Valencia,2828,laliga,8,LaLiga,Spain
+Deportivo Alavés,Alavés,2885,laliga,8,LaLiga,Spain
+Osasuna,Osasuna,2820,laliga,8,LaLiga,Spain
+Getafe,Getafe,2859,laliga,8,LaLiga,Spain
+Celta Vigo,Celta,2821,laliga,8,LaLiga,Spain
+Sevilla,Sevilla,2833,laliga,8,LaLiga,Spain
+Mallorca,Mallorca,2826,laliga,8,LaLiga,Spain
+Las Palmas,Las Palmas,6577,laliga,8,LaLiga,Spain
+Rayo Vallecano,Rayo Vallecano,2818,laliga,8,LaLiga,Spain
+Cádiz,Cádiz,4488,laliga,8,LaLiga,Spain
+Almería,Almería,2858,laliga,8,LaLiga,Spain
+Granada,Granada,33779,laliga,8,LaLiga,Spain
+Leganés,Leganés,2845,laliga-2,54,LaLiga2,Spain
+Real Valladolid,Real Valladolid,2831,laliga-2,54,LaLiga2,Spain
+Eibar,Eibar,2839,laliga-2,54,LaLiga2,Spain
+Espanyol,Espanyol,2814,laliga-2,54,LaLiga2,Spain
+Sporting Gijón,Sporting,2852,laliga-2,54,LaLiga2,Spain
+Real Oviedo,Real Oviedo,2851,laliga-2,54,LaLiga2,Spain
+Racing de Santander,Racing de Santander,2835,laliga-2,54,LaLiga2,Spain
+Levante UD,Levante,2849,laliga-2,54,LaLiga2,Spain
+Burgos Club de Fútbol,Burgos,2854,laliga-2,54,LaLiga2,Spain
+Racing de Ferrol,Racing de Ferrol,2843,laliga-2,54,LaLiga2,Spain
+Elche,Elche,2846,laliga-2,54,LaLiga2,Spain
+Tenerife,Tenerife,2822,laliga-2,54,LaLiga2,Spain
+Albacete Balompié,Albacete,2848,laliga-2,54,LaLiga2,Spain
+FC Cartagena,Cartagena,24329,laliga-2,54,LaLiga2,Spain
+Real Zaragoza,Real Zaragoza,2815,laliga-2,54,LaLiga2,Spain
+CD Eldense,Eldense,47321,laliga-2,54,LaLiga2,Spain
+Huesca,Huesca,24265,laliga-2,54,LaLiga2,Spain
+Mirandés,Mirandés,35092,laliga-2,54,LaLiga2,Spain
+SD Amorebieta,Amorebieta,54103,laliga-2,54,LaLiga2,Spain
+AD Alcorcón,Alcorcón,24322,laliga-2,54,LaLiga2,Spain
+FC Andorra,FC Andorra,324871,laliga-2,54,LaLiga2,Spain
+Villarreal B,Villarreal B ,24338,laliga-2,54,LaLiga2,Spain
+Manchester City,Man City,17,premier-league,17,PremierLeague,England
+Arsenal,Arsenal,42,premier-league,17,PremierLeague,England
+Liverpool,Liverpool,44,premier-league,17,PremierLeague,England
+Aston Villa,Aston Villa,40,premier-league,17,PremierLeague,England
+Tottenham Hotspur,Tottenham ,33,premier-league,17,PremierLeague,England
+Chelsea,Chelsea,38,premier-league,17,PremierLeague,England
+Newcastle United,Newcastle,39,premier-league,17,PremierLeague,England
+Manchester United,Man Utd,35,premier-league,17,PremierLeague,England
+West Ham United,West Ham,37,premier-league,17,PremierLeague,England
+Crystal Palace,Crystal Palace,7,premier-league,17,PremierLeague,England
+Brighton & Hove Albion,Brighton,30,premier-league,17,PremierLeague,England
+Bournemouth,Bournemouth,60,premier-league,17,PremierLeague,England
+Fulham,Fulham,43,premier-league,17,PremierLeague,England
+Wolverhampton,Wolves,3,premier-league,17,PremierLeague,England
+Everton,Everton,48,premier-league,17,PremierLeague,England
+Brentford,Brentford,50,premier-league,17,PremierLeague,England
+Nottingham Forest,Forest,14,premier-league,17,PremierLeague,England
+Luton Town,Luton,72,premier-league,17,PremierLeague,England
+Burnley,Burnley,6,premier-league,17,PremierLeague,England
+Sheffield United,Sheffield Utd,15,premier-league,17,PremierLeague,England
+Leicester City,Leicester,31,championship,18,Championship,England
+Ipswich Town,Ipswich,32,championship,18,Championship,England
+Leeds United,Leeds,34,championship,18,Championship,England
+Southampton,Southampton,45,championship,18,Championship,England
+West Bromwich Albion,West Brom,8,championship,18,Championship,England
+Norwich City,Norwich,263,championship,18,Championship,England
+Hull City,Hull,96,championship,18,Championship,England
+Middlesbrough,Middlesbrough,36,championship,18,Championship,England
+Coventry City,Coventry,11,championship,18,Championship,England
+Preston North End,Preston,21,championship,18,Championship,England
+Bristol City,Bristol City,58,championship,18,Championship,England
+Cardiff City,Cardiff,61,championship,18,Championship,England
+Millwall,Millwall,25,championship,18,Championship,England
+Swansea City,Swansea,74,championship,18,Championship,England
+Watford,Watford,24,championship,18,Championship,England
+Sunderland,Sunderland,41,championship,18,Championship,England
+Stoke City,Stoke,29,championship,18,Championship,England
+Queens Park Rangers,QPR,1,championship,18,Championship,England
+Blackburn Rovers,Blackburn,46,championship,18,Championship,England
+Sheffield Wednesday,Sheffield Wed,12,championship,18,Championship,England
+Plymouth Argyle,Plymouth,71,championship,18,Championship,England
+Birmingham City,Birmingham,9,championship,18,Championship,England
+Huddersfield Town,Huddersfield,59,championship,18,Championship,England
+Rotherham United,Rotherham,13,championship,18,Championship,England
+Inter,Inter,2697,serie-a,23,SerieA,Italy
+Milan,Milan,2692,serie-a,23,SerieA,Italy
+Juventus,Juventus,2687,serie-a,23,SerieA,Italy
+Atalanta,Atalanta,2686,serie-a,23,SerieA,Italy
+Bologna,Bologna,2685,serie-a,23,SerieA,Italy
+Roma,Roma,2702,serie-a,23,SerieA,Italy
+Lazio,Lazio,2699,serie-a,23,SerieA,Italy
+Fiorentina,Fiorentina,2693,serie-a,23,SerieA,Italy
+Torino,Torino,2696,serie-a,23,SerieA,Italy
+Napoli,Napoli,2714,serie-a,23,SerieA,Italy
+Genoa,Genoa,2713,serie-a,23,SerieA,Italy
+Monza,Monza,2729,serie-a,23,SerieA,Italy
+Hellas Verona,Verona,2701,serie-a,23,SerieA,Italy
+Lecce,Lecce,2689,serie-a,23,SerieA,Italy
+Udinese,Udinese,2695,serie-a,23,SerieA,Italy
+Cagliari,Cagliari,2719,serie-a,23,SerieA,Italy
+Empoli,Empoli,2705,serie-a,23,SerieA,Italy
+Frosinone,Frosinone,2801,serie-a,23,SerieA,Italy
+Sassuolo,Sassuolo,2793,serie-a,23,SerieA,Italy
+Salernitana,Salernitana,2710,serie-a,23,SerieA,Italy
+Parma,Parma,2690,serie-b,53,SerieB,Italy
+Como,Como,2704,serie-b,53,SerieB,Italy
+Venezia,Venezia,2688,serie-b,53,SerieB,Italy
+Cremonese,Cremonese,2761,serie-b,53,SerieB,Italy
+Catanzaro,Catanzaro,2796,serie-b,53,SerieB,Italy
+Palermo,Palermo,2715,serie-b,53,SerieB,Italy
+Sampdoria,Sampdoria,2711,serie-b,53,SerieB,Italy
+Brescia,Brescia,2691,serie-b,53,SerieB,Italy
+Cosenza,Cosenza,2716,serie-b,53,SerieB,Italy
+Modena,Modena,2706,serie-b,53,SerieB,Italy
+Reggiana,Reggiana,24516,serie-b,53,SerieB,Italy
+Südtirol,Südtirol,2760,serie-b,53,SerieB,Italy
+Pisa,Pisa,2737,serie-b,53,SerieB,Italy
+Cittadella,Cittadella,2717,serie-b,53,SerieB,Italy
+Spezia,Spezia,2735,serie-b,53,SerieB,Italy
+Ternana,Ternana,2708,serie-b,53,SerieB,Italy
+Bari,Bari,2712,serie-b,53,SerieB,Italy
+Ascoli,Ascoli,2707,serie-b,53,SerieB,Italy
+Feralpisalò,Feralpisalò,37173,serie-b,53,SerieB,Italy
+Lecco,Lecco,7933,serie-b,53,SerieB,Italy
+Paris Saint-Germain,PSG,1644,ligue-1,34,Ligue1,France
+AS Monaco,AS Monaco,1653,ligue-1,34,Ligue1,France
+Stade Brestois,Brest,1715,ligue-1,34,Ligue1,France
+Lille,Lille,1643,ligue-1,34,Ligue1,France
+Nice,Nice,1661,ligue-1,34,Ligue1,France
+Olympique Lyonnais,Lyon,1649,ligue-1,34,Ligue1,France
+RC Lens,Lens,1648,ligue-1,34,Ligue1,France
+Olympique de Marseille,Marseille,1641,ligue-1,34,Ligue1,France
+Stade de Reims,Reims,1682,ligue-1,34,Ligue1,France
+Stade Rennais,Rennes,1658,ligue-1,34,Ligue1,France
+Toulouse,Toulouse,1681,ligue-1,34,Ligue1,France
+Montpellier,Montpellier,1642,ligue-1,34,Ligue1,France
+RC Strasbourg,Strasbourg,1659,ligue-1,34,Ligue1,France
+Nantes,Nantes,1647,ligue-1,34,Ligue1,France
+Le Havre,Le Havre,1662,ligue-1,34,Ligue1,France
+Metz,Metz,1651,ligue-1,34,Ligue1,France
+Lorient,Lorient,1656,ligue-1,34,Ligue1,France
+Clermont Foot,Clermont,1680,ligue-1,34,Ligue1,France
+Auxerre,Auxerre,1646,ligue-2,182,Ligue2,France
+Angers,Angers,1684,ligue-2,182,Ligue2,France
+Saint-Étienne,Saint-Étienne,1678,ligue-2,182,Ligue2,France
+Rodez AF,Rodez,6925,ligue-2,182,Ligue2,France
+Paris FC,Paris,6070,ligue-2,182,Ligue2,France
+Caen,Caen,1667,ligue-2,182,Ligue2,France
+Stade Lavallois,Laval,1673,ligue-2,182,Ligue2,France
+Amiens SC,Amiens,1676,ligue-2,182,Ligue2,France
+Guingamp,Guingamp,1654,ligue-2,182,Ligue2,France
+Pau FC,Pau,1685,ligue-2,182,Ligue2,France
+Grenoble Foot 38,Grenoble,1671,ligue-2,182,Ligue2,France
+Bordeaux,Bordeaux,1645,ligue-2,182,Ligue2,France
+Bastia,Bastia,1655,ligue-2,182,Ligue2,France
+Annecy FC,Annecy FC,210894,ligue-2,182,Ligue2,France
+Ajaccio,Ajaccio,1660,ligue-2,182,Ligue2,France
+Dunkerque,Dunkerque,6918,ligue-2,182,Ligue2,France
+Troyes,Troyes,1652,ligue-2,182,Ligue2,France
+Quevilly - Rouen Métropole,QRM,210099,ligue-2,182,Ligue2,France
+US Concarneau,Concarneau,6917,ligue-2,182,Ligue2,France
+Valenciennes,Valenciennes,5061,ligue-2,182,Ligue2,France
+Bayer 04 Leverkusen,Leverkusen,2681,bundesliga,35,Bundesliga,Germany
+VfB Stuttgart,Stuttgart,2677,bundesliga,35,Bundesliga,Germany
+FC Bayern München,Bayern,2672,bundesliga,35,Bundesliga,Germany
+RB Leipzig,Leipzig,36360,bundesliga,35,Bundesliga,Germany
+Borussia Dortmund,Dortmund,2673,bundesliga,35,Bundesliga,Germany
+Eintracht Frankfurt,Frankfurt,2674,bundesliga,35,Bundesliga,Germany
+TSG Hoffenheim,Hoffenheim,2569,bundesliga,35,Bundesliga,Germany
+1. FC Heidenheim,Heidenheim,5885,bundesliga,35,Bundesliga,Germany
+SV Werder Bremen,Bremen,2534,bundesliga,35,Bundesliga,Germany
+SC Freiburg,Freiburg,2538,bundesliga,35,Bundesliga,Germany
+FC Augsburg,Augsburg,2600,bundesliga,35,Bundesliga,Germany
+VfL Wolfsburg,Wolfsburg,2524,bundesliga,35,Bundesliga,Germany
+1. FSV Mainz 05,Mainz 05,2556,bundesliga,35,Bundesliga,Germany
+Borussia M'gladbach,M'gladbach,2527,bundesliga,35,Bundesliga,Germany
+1. FC Union Berlin,Union Berlin,2547,bundesliga,35,Bundesliga,Germany
+VfL Bochum 1848,Bochum,2542,bundesliga,35,Bundesliga,Germany
+1. FC Köln,Köln,2671,bundesliga,35,Bundesliga,Germany
+Darmstadt 98,Darmstadt,2576,bundesliga,35,Bundesliga,Germany
+FC St. Pauli,St. Pauli,2526,2-bundesliga,44,2.Bundesliga,Germany
+Holstein Kiel,Kiel,2573,2-bundesliga,44,2.Bundesliga,Germany
+Fortuna Düsseldorf,Fortuna,2588,2-bundesliga,44,2.Bundesliga,Germany
+Hamburger SV,HSV,2676,2-bundesliga,44,2.Bundesliga,Germany
+Karlsruher SC,Karlsruhe,2553,2-bundesliga,44,2.Bundesliga,Germany
+Hannover 96,Hannover,2541,2-bundesliga,44,2.Bundesliga,Germany
+SC Paderborn 07,Paderborn,2561,2-bundesliga,44,2.Bundesliga,Germany
+SpVgg Greuther Fürth,Fürth,2551,2-bundesliga,44,2.Bundesliga,Germany
+Hertha BSC,Hertha,2528,2-bundesliga,44,2.Bundesliga,Germany
+FC Schalke 04,Schalke,2530,2-bundesliga,44,2.Bundesliga,Germany
+SV 07 Elversberg,Elversberg,2598,2-bundesliga,44,2.Bundesliga,Germany
+1. FC Nürnberg,Nürnberg,2523,2-bundesliga,44,2.Bundesliga,Germany
+1. FC Kaiserslautern,Kaiserslautern,2675,2-bundesliga,44,2.Bundesliga,Germany
+1. FC Magdeburg,Magdeburg,2591,2-bundesliga,44,2.Bundesliga,Germany
+Eintracht Braunschweig,Braunschweig,2557,2-bundesliga,44,2.Bundesliga,Germany
+SV Wehen Wiesbaden,Wehen,2597,2-bundesliga,44,2.Bundesliga,Germany
+F.C. Hansa Rostock,Rostock,2533,2-bundesliga,44,2.Bundesliga,Germany
+VfL Osnabrück,Osnabrück,2581,2-bundesliga,44,2.Bundesliga,Germany
+Galatasaray,Galatasaray,3061,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Fenerbahçe,Fenerbahçe,3052,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Trabzonspor,Trabzonspor,3051,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Başakşehir FK,Başakşehir,3086,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Kasımpaşa,Kasımpaşa,6063,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Beşiktaş,Beşiktaş,3050,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Sivasspor,Sivasspor,3076,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Alanyaspor,Alanyaspor,6362,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Çaykur Rizespor,Rizespor,3064,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Antalyaspor,Antalyaspor,3056,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Gaziantep FK,Gaziantep,5138,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Adana Demirspor,Adana DS,3101,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Yılport Samsunspor,Samsunspor,3053,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Kayserispor,Kayserispor,3072,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Hatayspor,Hatayspor,3091,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Konyaspor,Konyaspor,3085,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+MKE Ankaragücü,Ankaragücü,3103,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Fatih Karagümrük,Karagümrük,4954,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Pendikspor,Pendikspor,7032,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+İstanbulspor,İstanbulspor,3066,trendyol-super-lig,52,TrendyolSüperLig,Turkey
+Sporting,Sporting,3001,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Benfica,Benfica,3006,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+FC Porto,Porto,3002,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Sporting Braga,Braga,2999,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Vitória SC,Vitória,3009,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Moreirense,Moreirense,3014,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Arouca,Arouca,25777,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Famalicão,Famalicão,49531,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Casa Pia,Casa Pia,36365,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+SC Farense,Farense,2998,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Rio Ave,Rio Ave,3036,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Gil Vicente,Gil Vicente,3010,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Estoril Praia,Estoril,4500,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+CF Estrela Amadora,Estrela Amadora,3035,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Boavista,Boavista,2995,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Portimonense,Portimonense,3026,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Vizela,Vizela,5136,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+Chaves,Chaves,3025,liga-portugal-betclic,238,LigaPortugalBetclic,Portugal
+PSV Eindhoven,PSV,2952,eredivisie,37,Eredivisie,Netherlands
+Feyenoord,Feyenoord,2959,eredivisie,37,Eredivisie,Netherlands
+FC Twente,Twente,2955,eredivisie,37,Eredivisie,Netherlands
+AZ Alkmaar,AZ,2950,eredivisie,37,Eredivisie,Netherlands
+Ajax,Ajax,2953,eredivisie,37,Eredivisie,Netherlands
+NEC Nijmegen,NEC,2962,eredivisie,37,Eredivisie,Netherlands
+FC Utrecht,Utrecht,2948,eredivisie,37,Eredivisie,Netherlands
+Sparta Rotterdam,Sparta,2960,eredivisie,37,Eredivisie,Netherlands
+Go Ahead Eagles,GA Eagles,2979,eredivisie,37,Eredivisie,Netherlands
+Fortuna Sittard,Fortuna,2957,eredivisie,37,Eredivisie,Netherlands
+SC Heerenveen,Heerenveen,2964,eredivisie,37,Eredivisie,Netherlands
+PEC Zwolle,Zwolle,2971,eredivisie,37,Eredivisie,Netherlands
+Almere City FC,Almere City,2990,eredivisie,37,Eredivisie,Netherlands
+Heracles Almelo,Heracles,2977,eredivisie,37,Eredivisie,Netherlands
+RKC Waalwijk,Waalwijk,2956,eredivisie,37,Eredivisie,Netherlands
+Excelsior,Excelsior,2967,eredivisie,37,Eredivisie,Netherlands
+FC Volendam,Volendam,2968,eredivisie,37,Eredivisie,Netherlands
+Vitesse,Vitesse,2958,eredivisie,37,Eredivisie,Netherlands
+Royale Union Saint-Gilloise,USG,4860,pro-league,38,ProLeague,Belgium
+Anderlecht,Anderlecht,2900,pro-league,38,ProLeague,Belgium
+Royal Antwerp FC,Royal Antwerp,2889,pro-league,38,ProLeague,Belgium
+Club Brugge KV,Club Brugge,2888,pro-league,38,ProLeague,Belgium
+Cercle Brugge,Cercle Brugge,2929,pro-league,38,ProLeague,Belgium
+KRC Genk,Genk,2890,pro-league,38,ProLeague,Belgium
+KAA Gent,Gent,2903,pro-league,38,ProLeague,Belgium
+KV Mechelen,Mechelen,5044,pro-league,38,ProLeague,Belgium
+Sint-Truidense VV,St. Truidense,2895,pro-league,38,ProLeague,Belgium
+Standard Liège,Standard Liège,2901,pro-league,38,ProLeague,Belgium
+KVC Westerlo,Westerlo,2893,pro-league,38,ProLeague,Belgium
+Oud-Heverlee Leuven,OH Leuven,2918,pro-league,38,ProLeague,Belgium
+RC Sporting Charleroi,Charleroi,2898,pro-league,38,ProLeague,Belgium
+KAS Eupen,Eupen,2926,pro-league,38,ProLeague,Belgium
+KV Kortrijk,Kortrijk,4858,pro-league,38,ProLeague,Belgium
+RWD Molenbeek,RWD Molenbeek,204219,pro-league,38,ProLeague,Belgium
+Botafogo,Botafogo,1958,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Palmeiras,Palmeiras,1963,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Flamengo,Flamengo,5981,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Bahia,Bahia,1955,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+São Paulo,São Paulo,1981,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Cruzeiro,Cruzeiro,1954,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Fortaleza,Fortaleza,2020,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Athletico,Athletico,1967,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Red Bull Bragantino,RB Bragantino,1999,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Atlético Mineiro,Atlético-MG,1977,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Vasco da Gama,Vasco,1974,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Internacional,Internacional,1966,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Juventude,Juventude,1980,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Criciúma,Criciúma,1984,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Vitória,Vitória,1962,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Cuiabá,Cuiabá,49202,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Corinthians,Corinthians,1957,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Grêmio,Grêmio,5926,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Atlético Goianiense,Atlético-GO,7314,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Fluminense,Fluminense,1961,brasileirao-serie-a,325,BrasileirãoSérieA,Brazil
+Zenit St. Petersburg,Zenit,2321,premier-liga,203,RussianPremierLeague,Russia
+FC Krasnodar,Krasnodar,34425,premier-liga,203,RussianPremierLeague,Russia
+Dynamo Moscow,Dynamo,2315,premier-liga,203,RussianPremierLeague,Russia
+Lokomotiv Moscow,Lokomotiv,2320,premier-liga,203,RussianPremierLeague,Russia
+FC Spartak Moscow,Spartak ,2323,premier-liga,203,RussianPremierLeague,Russia
+CSKA Moscow,CSKA,2325,premier-liga,203,RussianPremierLeague,Russia
+FC Rostov,Rostov,2326,premier-liga,203,RussianPremierLeague,Russia
+Rubin Kazan,Rubin,2333,premier-liga,203,RussianPremierLeague,Russia
+Krylya Sovetov Samara,Krylya Sovetov,2322,premier-liga,203,RussianPremierLeague,Russia
+Akhmat Grozny,Akhmat,5131,premier-liga,203,RussianPremierLeague,Russia
+Fakel Voronezh,Fakel,2317,premier-liga,203,RussianPremierLeague,Russia
+Orenburg,Orenburg,24118,premier-liga,203,RussianPremierLeague,Russia
+Pari Nizhny Novgorod,Pari NN,201654,premier-liga,203,RussianPremierLeague,Russia
+Ural Yekaterinburg,Ural,7529,premier-liga,203,RussianPremierLeague,Russia
+Baltika Kaliningrad,Baltika,7517,premier-liga,203,RussianPremierLeague,Russia
+FC Sochi,Sochi,2334,premier-liga,203,RussianPremierLeague,Russia
+Shakhtar Donetsk,Shakhtar,3313,premier-league,218,UkrainianPremierLeague,Ukraine
+Dynamo Kyiv,Dynamo Kyiv,3305,premier-league,218,UkrainianPremierLeague,Ukraine
+FC Kryvbas Kryvyi Rih,Kryvbas,294048,premier-league,218,UkrainianPremierLeague,Ukraine
+SC Dnipro-1,Dnipro-1,258537,premier-league,218,UkrainianPremierLeague,Ukraine
+Polissya Zhytomyr,Polissya,258536,premier-league,218,UkrainianPremierLeague,Ukraine
+Rukh Lviv,Rukh Lviv,229644,premier-league,218,UkrainianPremierLeague,Ukraine
+LNZ Cherkasy,LNZ Cherkasy,284427,premier-league,218,UkrainianPremierLeague,Ukraine
+Oleksandria,Oleksandria,25479,premier-league,218,UkrainianPremierLeague,Ukraine
+Vorskla Poltava,Vorskla,3309,premier-league,218,UkrainianPremierLeague,Ukraine
+Zorya Luhansk,Zorya Luhansk,5987,premier-league,218,UkrainianPremierLeague,Ukraine
+Kolos Kovalivka,Kolos Kovalivka,200776,premier-league,218,UkrainianPremierLeague,Ukraine
+Chornomorets Odesa,Chornomorets,3310,premier-league,218,UkrainianPremierLeague,Ukraine
+Veres Rivne,Veres Rivne,200773,premier-league,218,UkrainianPremierLeague,Ukraine
+Obolon Kyiv,Obolon,138564,premier-league,218,UkrainianPremierLeague,Ukraine
+FC Minaj,FC Minaj,291318,premier-league,218,UkrainianPremierLeague,Ukraine
+Metalist 1925,Metalist 1925,266889,premier-league,218,UkrainianPremierLeague,Ukraine
+FC Midtjylland,Midtjylland,1289,superliga,39,DanishSuperliga,Denmark
+Brøndby IF,Brøndby,1281,superliga,39,DanishSuperliga,Denmark
+FC København,København,1284,superliga,39,DanishSuperliga,Denmark
+FC Nordsjælland,Nordsjælland,1292,superliga,39,DanishSuperliga,Denmark
+AGF,AGF,1291,superliga,39,DanishSuperliga,Denmark
+Silkeborg IF,Silkeborg,1285,superliga,39,DanishSuperliga,Denmark
+Odense BK,OB,1286,superliga,39,DanishSuperliga,Denmark
+Lyngby,Lyngby,1756,superliga,39,DanishSuperliga,Denmark
+Viborg FF,Viborg,1288,superliga,39,DanishSuperliga,Denmark
+Randers FC,Randers,1301,superliga,39,DanishSuperliga,Denmark
+Vejle,Vejle,4872,superliga,39,DanishSuperliga,Denmark
+Hvidovre,Hvidovre,1305,superliga,39,DanishSuperliga,Denmark
+FC Cincinnati,Cincinnati,215167,mls,242,MLS,USA
+Inter Miami CF,Inter Miami,337602,mls,242,MLS,USA
+Los Angeles FC,Los Angeles,274650,mls,242,MLS,USA
+Real Salt Lake,Salt Lake,5133,mls,242,MLS,USA
+LA Galaxy,LA Galaxy,2513,mls,242,MLS,USA
+Columbus Crew,Columbus,2504,mls,242,MLS,USA
+Colorado Rapids,Colorado,2510,mls,242,MLS,USA
+New York Red Bulls,NY Red Bulls,2506,mls,242,MLS,USA
+New York City FC,NY City,187643,mls,242,MLS,USA
+Portland Timbers,Portland,22007,mls,242,MLS,USA
+Vancouver Whitecaps,Vancouver,22010,mls,242,MLS,USA
+Charlotte FC,Charlotte,404108,mls,242,MLS,USA
+Seattle Sounders FC,Seattle,22009,mls,242,MLS,USA
+Houston Dynamo,Houston,2508,mls,242,MLS,USA
+Austin FC,Austin,377973,mls,242,MLS,USA
+Minnesota United,Minnesota,41618,mls,242,MLS,USA
+Orlando City SC,Orlando,52237,mls,242,MLS,USA
+Nashville SC,Nashville,337612,mls,242,MLS,USA
+Toronto FC,Toronto,7080,mls,242,MLS,USA
+Atlanta United,Atlanta,243211,mls,242,MLS,USA
+FC Dallas,Dallas,2512,mls,242,MLS,USA
+CF Montréal,Montréal,22006,mls,242,MLS,USA
+New England Revolution,New England,2511,mls,242,MLS,USA
+St.Louis City,St. Louis,407803,mls,242,MLS,USA
+Chicago Fire,Chicago,2505,mls,242,MLS,USA
+Philadelphia Union,Philadelphia,39833,mls,242,MLS,USA
+Sporting Kansas City,Kansas City,2509,mls,242,MLS,USA
+DC United,DC United,2502,mls,242,MLS,USA
+San Jose Earthquakes,San Jose,21825,mls,242,MLS,USA
+Red Bull Salzburg,RB Salzburg,2046,bundesliga,45,Bundesliga,Austria
+SK Sturm Graz,Sturm,2051,bundesliga,45,Bundesliga,Austria
+LASK,LASK,2058,bundesliga,45,Bundesliga,Austria
+Austria Klagenfurt,A. Klagenfurt,43254,bundesliga,45,Bundesliga,Austria
+TSV Hartberg,Hartberg,2075,bundesliga,45,Bundesliga,Austria
+SK Rapid Wien,Rapid,2055,bundesliga,45,Bundesliga,Austria
+Austria Wien,Austria Wien,2203,bundesliga,45,Bundesliga,Austria
+Wolfsberger AC,WAC,2076,bundesliga,45,Bundesliga,Austria
+SC Rheindorf Altach,SCR Altach,4856,bundesliga,45,Bundesliga,Austria
+FC Blau Weiss Linz,BW Linz,2113,bundesliga,45,Bundesliga,Austria
+WSG Tirol,Tirol,5405,bundesliga,45,Bundesliga,Austria
+SC Austria Lustenau,SC Austria Lustenau,2062,bundesliga,45,Bundesliga,Austria
+Jagiellonia Białystok,Jagiellonia,7691,ekstraklasa,202,Ekstraklasa,Poland
+Śląsk Wrocław,Śląsk,3108,ekstraklasa,202,Ekstraklasa,Poland
+Legia Warszawa,Legia,3106,ekstraklasa,202,Ekstraklasa,Poland
+Pogoń Szczecin,Pogoń,3117,ekstraklasa,202,Ekstraklasa,Poland
+Lech Poznań,Lech,3121,ekstraklasa,202,Ekstraklasa,Poland
+Górnik Zabrze,Górnik,3110,ekstraklasa,202,Ekstraklasa,Poland
+Raków Częstochowa,Raków,35268,ekstraklasa,202,Ekstraklasa,Poland
+Zagłębie Lubin,Zagłębie L.,3113,ekstraklasa,202,Ekstraklasa,Poland
+Widzew Łódź,Widzew Łódź,3115,ekstraklasa,202,Ekstraklasa,Poland
+Piast Gliwice,Piast,7918,ekstraklasa,202,Ekstraklasa,Poland
+Stal Mielec,Stal Mielec,38732,ekstraklasa,202,Ekstraklasa,Poland
+Puszcza Niepołomice,Puszcza,38729,ekstraklasa,202,Ekstraklasa,Poland
+Cracovia,Cracovia,4901,ekstraklasa,202,Ekstraklasa,Poland
+MKS Korona Kielce,Korona,5065,ekstraklasa,202,Ekstraklasa,Poland
+Radomiak Radom,Radomiak ,7295,ekstraklasa,202,Ekstraklasa,Poland
+Warta Poznań,Warta Poznań,7922,ekstraklasa,202,Ekstraklasa,Poland
+Ruch Chorzów,Ruch Chorzów,3105,ekstraklasa,202,Ekstraklasa,Poland
+ŁKS Łódź,ŁKS Łódź,3123,ekstraklasa,202,Ekstraklasa,Poland
+Talleres,Talleres,3210,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Huracán,Huracán,7629,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Club Atlético Unión,Unión,3204,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Racing Club,Racing,3215,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Gimnasia y Esgrima,Gimnasia,3205,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Instituto Córdoba,Instituto,4937,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+River Plate,River,3211,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Argentinos Juniors,Argentinos Jrs.,3216,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Lanús,Lanús,3218,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Belgrano,Belgrano,3203,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Boca Juniors,Boca Juniors,3202,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Sarmiento,Sarmiento,42338,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Independiente Rivadavia,Ind. Rivadavia,36842,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Estudiantes de La Plata,Estudiantes,3206,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Rosario Central,Rosario Central,3217,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Atlético Tucumán,Atlético Tucumán,36833,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Independiente,Independiente,3209,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Deportivo Riestra,Dep. Riestra,189723,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Newell's Old Boys,Newell's,3212,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Vélez Sarsfield,Vélez Sarsfield,3208,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Platense,Platense,36837,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Banfield,Banfield,3219,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Barracas Central,Barracas,65668,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Defensa y Justicia,Def y Justicia,36839,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Tigre,Tigre,7628,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+San Lorenzo,San Lorenzo,3201,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Godoy Cruz,Godoy Cruz,6074,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+Central Córdoba,Central Córdoba,65676,liga-profesional-de-futbol,155,LigaProfesionaldeFútbol,Argentina
+GNK Dinamo Zagreb,Dinamo,2032,hnl,170,HNL,Croatia
+HNK Rijeka,Rijeka,2039,hnl,170,HNL,Croatia
+HNK Hajduk Split,Hajduk,2036,hnl,170,HNL,Croatia
+NK Osijek,Osijek,2040,hnl,170,HNL,Croatia
+NK Lokomotiva Zagreb,Lokomotiva,36246,hnl,170,HNL,Croatia
+NK Varaždin,Varaždin,231380,hnl,170,HNL,Croatia
+HNK Gorica,Gorica,43917,hnl,170,HNL,Croatia
+NK Istra 1961,Istra,25529,hnl,170,HNL,Croatia
+NK Slaven Belupo,Slaven,2042,hnl,170,HNL,Croatia
+NK Rudeš,Rudeš,35226,hnl,170,HNL,Croatia
+Club Tijuana,Tijuana,36525,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+Atlético San Luis,San Luis,1950,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+Tigres UANL,Tigres,1940,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+Pumas UNAM,Pumas,1933,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+Club América,América,1939,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+Cruz Azul,Cruz Azul,1947,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+CF Monterrey,Monterrey,1932,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+Club Puebla,Puebla,1941,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+Atlas FC,Atlas ,1949,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+FC Juárez,Juárez,201624,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+CD Toluca,Toluca,1931,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+Mazatlán FC,Mazatlán ,1946,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+CD Guadalajara,Guadalajara,1938,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+CF Pachuca,Pachuca,1936,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+Club Necaxa,Necaxa,1944,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+Santos Laguna,Santos,1948,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+Querétaro FC,Querétaro,1951,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+Club León,León,36534,liga-mx-apertura,11621,"LigaMX,Apertura",Mexico
+APOEL Nicosia,APOEL,3398,1-division,171,CypriotFirstDivision,Cyprus
+Aris Limassol,Aris,3397,1-division,171,CypriotFirstDivision,Cyprus
+AEK Larnaca,AEK,3404,1-division,171,CypriotFirstDivision,Cyprus
+Pafos FC,Pafos,171626,1-division,171,CypriotFirstDivision,Cyprus
+Omonia Nicosia,Omonia,3395,1-division,171,CypriotFirstDivision,Cyprus
+Anorthosis Famagusta,Anorthosis,3403,1-division,171,CypriotFirstDivision,Cyprus
+Apollon Limassol,Apollon,3402,1-division,171,CypriotFirstDivision,Cyprus
+Nea Salamina Famagusta,Nea Salamina,3399,1-division,171,CypriotFirstDivision,Cyprus
+AEL Limassol,AEL,3407,1-division,171,CypriotFirstDivision,Cyprus
+Ethnikos Achnas,Ethnikos,3396,1-division,171,CypriotFirstDivision,Cyprus
+Karmiotissa Polemidion,Karmiotissa,120838,1-division,171,CypriotFirstDivision,Cyprus
+AEZ Zakakiou,AEZ,73999,1-division,171,CypriotFirstDivision,Cyprus
+Othellos Athienou,Othellos,36400,1-division,171,CypriotFirstDivision,Cyprus
+Doxa Katokopias,Doxa,6973,1-division,171,CypriotFirstDivision,Cyprus
+Malmö FF,Malmö,1892,allsvenskan,40,Allsvenskan,Sweden
+Mjällby AIF,Mjällby,1783,allsvenskan,40,Allsvenskan,Sweden
+Djurgårdens IF,Djurgården,1759,allsvenskan,40,Allsvenskan,Sweden
+BK Häcken,Häcken,1760,allsvenskan,40,Allsvenskan,Sweden
+Hammarby IF,Hammarby,1758,allsvenskan,40,Allsvenskan,Sweden
+GAIS Göteborg,GAIS,1786,allsvenskan,40,Allsvenskan,Sweden
+IF Elfsborg,Elfsborg,1762,allsvenskan,40,Allsvenskan,Sweden
+IK Sirius,Sirius,1793,allsvenskan,40,Allsvenskan,Sweden
+Halmstads BK,Halmstad,1767,allsvenskan,40,Allsvenskan,Sweden
+IFK Värnamo,Värnamo,1842,allsvenskan,40,Allsvenskan,Sweden
+AIK,AIK,1764,allsvenskan,40,Allsvenskan,Sweden
+IF Brommapojkarna,Brommapojkarna,1787,allsvenskan,40,Allsvenskan,Sweden
+IFK Göteborg,Göteborg,1761,allsvenskan,40,Allsvenskan,Sweden
+Kalmar FF,Kalmar,1891,allsvenskan,40,Allsvenskan,Sweden
+IFK Norrköping,Norrköping,1769,allsvenskan,40,Allsvenskan,Sweden
+Västerås SK,Västerås,1775,allsvenskan,40,Allsvenskan,Sweden
+Machida Zelvia,Machida Z,44409,j1-league,196,J1League,Japan
+Vissel Kobe,Vissel Kobe,3146,j1-league,196,J1League,Japan
+Kashima Antlers,Kashima,3134,j1-league,196,J1League,Japan
+Gamba Osaka,Gamba Osaka,3138,j1-league,196,J1League,Japan
+Cerezo Osaka,Cerezo Osaka,3141,j1-league,196,J1League,Japan
+FC Tokyo,Tokyo,3147,j1-league,196,J1League,Japan
+Avispa Fukuoka,Fukuoka,3143,j1-league,196,J1League,Japan
+Sanfrecce Hiroshima,Hiroshima,3135,j1-league,196,J1League,Japan
+Urawa Red Diamonds,Urawa Reds,3145,j1-league,196,J1League,Japan
+Tokyo Verdy,Tokyo Verdy,3139,j1-league,196,J1League,Japan
+Kashiwa Reysol,Kashiwa,3140,j1-league,196,J1League,Japan
+Nagoya Grampus,Nagoya,3136,j1-league,196,J1League,Japan
+Yokohama F. Marinos,Yokohama FM,3137,j1-league,196,J1League,Japan
+Albirex Niigata,Albirex Niigata,5128,j1-league,196,J1League,Japan
+Kawasaki Frontale,Kawasaki,5127,j1-league,196,J1League,Japan
+Jubilo Iwata,Jubilo Iwata,3132,j1-league,196,J1League,Japan
+Sagan Tosu,S. Tosu,21904,j1-league,196,J1League,Japan
+Kyoto Sanga FC,Kyoto Sanga,3149,j1-league,196,J1League,Japan
+Shonan Bellmare,Shonan,21905,j1-league,196,J1League,Japan
+Hokkaido Consadole Sapporo,Sapporo,3142,j1-league,196,J1League,Japan
+Ulsan HD,Ulsan,7653,k-league-1,410,KLeague1,South Korea
+Pohang Steelers,Pohang Steelers,7650,k-league-1,410,KLeague1,South Korea
+Gimcheon Sangmu FC,Gimcheon,7647,k-league-1,410,KLeague1,South Korea
+Gangwon FC,Gangwon,34220,k-league-1,410,KLeague1,South Korea
+Suwon FC,Suwon FC,41261,k-league-1,410,KLeague1,South Korea
+FC Seoul,FC Seoul,7646,k-league-1,410,KLeague1,South Korea
+Jeju United,Jeju United,7649,k-league-1,410,KLeague1,South Korea
+Gwangju FC,Gwangju,48912,k-league-1,410,KLeague1,South Korea
+Incheon United,Incheon Utd,7648,k-league-1,410,KLeague1,South Korea
+Daegu FC,Daegu FC,7644,k-league-1,410,KLeague1,South Korea
+Jeonbuk Hyundai Motors,Jeonbuk,6908,k-league-1,410,KLeague1,South Korea
+Daejeon Hana Citizen,Daejeon Hana,7645,k-league-1,410,KLeague1,South Korea
+Al-Hilal,Al-Hilal,21895,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al-Nassr,Al-Nassr,23400,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al-Ahli,Al-Ahli,34469,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al-Taawoun,Al-Taawoun,56021,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al-Ittihad,Al-Ittihad,34315,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al-Ettifaq,Al-Ettifaq,34318,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al-Fateh,Al-Fateh,56023,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al-Shabab,Al-Shabab,34313,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al-Fayha,Al-Fayha,168094,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Damac FC,Damac,204126,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al-Khaleej,Al-Khaleej,167228,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al-Raed,Al-Raed,56031,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al-Wehda,Al-Wehda,32994,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al Riyadh,Al Riyadh,168088,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al-Okhdood,Al-Okhdood,336456,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Abha,Abha,168090,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al Tai,Al Tai,168072,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Al Hazem,Al Hazem,168086,saudi-pro-league,955,SaudiProLeague,Saudi Arabia
+Maccabi Tel Aviv,M. Tel-Aviv,5198,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Maccabi Haifa,M. Haifa,5197,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Hapoel Be'er Sheva,H. Be'er Sheva,5202,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Hapoel Haifa,H. Haifa,5201,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Maccabi Bney Reine,M. Bney Reine,274894,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Bnei Sakhnin,Sakhnin,5392,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Hapoel Katamon Jerusalem,Hapoel Katamon,86406,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Maccabi Petach Tikva,M. Petach Tikva,5333,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Maccabi Netanya,M. Netanya,5395,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Hapoel Hadera,H. Hadera,39525,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Hapoel Tel Aviv,H. Tel Aviv,5396,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Beitar Jerusalem,Beitar Jerusalem,5204,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Ashdod SC,Ashdod,5391,israeli-premier-league,266,IsraeliPremierLeague,Israel
+Hapoel Petach Tikva,H. Petach-Tikva,5199,israeli-premier-league,266,IsraeliPremierLeague,Israel
+FCSB,FCSB,3301,superliga,152,RomanianSuperLiga,Romania
+FC Rapid București,Rapid București,295403,superliga,152,RomanianSuperLiga,Romania
+CFR 1907 Cluj,CFR Cluj,5287,superliga,152,RomanianSuperLiga,Romania
+CS Universitatea Craiova,U. Craiova,116223,superliga,152,RomanianSuperLiga,Romania
+FCV Farul Constanța,Farul Constanța,3294,superliga,152,RomanianSuperLiga,Romania
+Sepsi OSK,Sepsi OSK,189789,superliga,152,RomanianSuperLiga,Romania
+FC Universitatea Cluj,U. Cluj,7734,superliga,152,RomanianSuperLiga,Romania
+UTA Arad,UTA Arad,204657,superliga,152,RomanianSuperLiga,Romania
+FC Hermannstadt,Hermannstadt,260356,superliga,152,RomanianSuperLiga,Romania
+FC Petrolul Ploieşti,Petrolul Ploieşti,25856,superliga,152,RomanianSuperLiga,Romania
+SC Oțelul Galați,Oțelul Galați,3291,superliga,152,RomanianSuperLiga,Romania
+ACSM Politehnica Iași,Poli Iași,44319,superliga,152,RomanianSuperLiga,Romania
+FCU 1948 Craiova,FCU Craiova,312033,superliga,152,RomanianSuperLiga,Romania
+FC Dinamo București,Dinamo București,3292,superliga,152,RomanianSuperLiga,Romania
+FC Voluntari,Voluntari,44255,superliga,152,RomanianSuperLiga,Romania
+FC Botoșani,FC Botoșani,24798,superliga,152,RomanianSuperLiga,Romania
+Bodø/Glimt,Bodø/Glimt,656,eliteserien,20,Eliteserien,Norway
+SK Brann,Brann,1159,eliteserien,20,Eliteserien,Norway
+Molde FK,Molde,661,eliteserien,20,Eliteserien,Norway
+Viking FK,Viking,1164,eliteserien,20,Eliteserien,Norway
+Fredrikstad FK,Fredrikstad,687,eliteserien,20,Eliteserien,Norway
+Strømsgodset,Strømsgodset,1163,eliteserien,20,Eliteserien,Norway
+Lillestrøm SK,Lillestrøm,664,eliteserien,20,Eliteserien,Norway
+HamKam,HamKam,666,eliteserien,20,Eliteserien,Norway
+Kristiansund BK,Kristiansund,957,eliteserien,20,Eliteserien,Norway
+Rosenborg BK,Rosenborg,1161,eliteserien,20,Eliteserien,Norway
+Sarpsborg 08,Sarpsborg 08,822,eliteserien,20,Eliteserien,Norway
+KFUM Oslo,KFUM Oslo,786,eliteserien,20,Eliteserien,Norway
+Tromsø IL,Tromsø,660,eliteserien,20,Eliteserien,Norway
+Odds BK,Odd,659,eliteserien,20,Eliteserien,Norway
+Sandefjord Fotball,Sandefjord,676,eliteserien,20,Eliteserien,Norway
+Haugesund,Haugesund,673,eliteserien,20,Eliteserien,Norway
+Young Boys,Young Boys,2445,super-league,215,SwissSuperLeague,Switzerland
+FC Lugano,Lugano,2443,super-league,215,SwissSuperLeague,Switzerland
+Servette FC,Servette,2448,super-league,215,SwissSuperLeague,Switzerland
+FC St. Gallen 1879,St. Gallen,2442,super-league,215,SwissSuperLeague,Switzerland
+FC Winterthur,Winterthur,2458,super-league,215,SwissSuperLeague,Switzerland
+FC Zürich,Zürich,2450,super-league,215,SwissSuperLeague,Switzerland
+FC Luzern,Luzern,2453,super-league,215,SwissSuperLeague,Switzerland
+FC Lausanne-Sport,Lausanne,2446,super-league,215,SwissSuperLeague,Switzerland
+Basel,Basel,2501,super-league,215,SwissSuperLeague,Switzerland
+Yverdon-Sport FC,Yverdon-Sport,2460,super-league,215,SwissSuperLeague,Switzerland
+Grasshopper Club Zürich,Grasshoppers,2449,super-league,215,SwissSuperLeague,Switzerland
+FC Stade-Lausanne-Ouchy,Stade Ls Ouchy,35162,super-league,215,SwissSuperLeague,Switzerland
