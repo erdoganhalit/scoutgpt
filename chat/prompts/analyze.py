@@ -42,24 +42,25 @@ ANALYSIS_CYPHER_COMMANDS = """
   r.groundDuelsWon AS groundDuelsWon,
   t;
 
- The question will include the name of the player and you will search for it in PLAYER_NAME property of Player nodes.
- 
+ The question or the chat_history will include the name of the player and you will search for it in PLAYER_NAME property of Player nodes.
+ Chat history:
+ {chat_history}
 
  The question is:
  {question}
 
- IMPORTANT NOTE: If the question does not include a football player, then just write 'False' and nothing else. Obey this rule at all cost.
+ IMPORTANT NOTE: If the question or the chat history does not include a football player, then just write 'False' and nothing else. Obey this rule at all cost.
  """
 
 ANALYSIS_CYPHER_TEMPLATE = GENERAL_CYPHER_TEMPLATE + ANALYSIS_CYPHER_COMMANDS
 ANALYSIS_CYPHER_TEMPLATE_W_CONTEXT = GENERAL_CYPHER_TEMPLATE_W_CONTEXT + ANALYSIS_CYPHER_COMMANDS
 
 ANALYSIS_CYPHER_PROMPT = PromptTemplate(
-    input_variables=["schema", "question"], template=ANALYSIS_CYPHER_TEMPLATE
+    input_variables=["schema", "question", "chat_history"], template=ANALYSIS_CYPHER_TEMPLATE
 )
 
 ANALYSIS_CYPHER_PROMPT_W_CONTEXT = PromptTemplate(
-    input_variables=["schema", "question"], template=ANALYSIS_CYPHER_TEMPLATE_W_CONTEXT
+    input_variables=["schema", "question", "chat_history"], template=ANALYSIS_CYPHER_TEMPLATE_W_CONTEXT
 )
 
 ANALYSIS_QA_TEMPLATE = """You are an assistant that helps to form nice and human understandable answers for football player analysis.
@@ -74,9 +75,12 @@ If the provided information is empty, say that you don't know the answer.
 Information:
 {context}
 
+Chat history:
+{chat_history}
+
 Question: {question}
 Helpful Answer:"""
 
 ANALYSIS_QA_PROMPT = PromptTemplate(
-    input_variables=["context", "question"], template=ANALYSIS_QA_TEMPLATE
+    input_variables=["context", "question", "chat_history"], template=ANALYSIS_QA_TEMPLATE
 )

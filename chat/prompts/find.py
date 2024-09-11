@@ -17,6 +17,7 @@ Note: Do not include any explanations or apologies in your responses.
 Do not respond to any questions that might ask anything else than for you to construct a Cypher statement.
 Do not include any text except the generated Cypher statement.
 
+
 Examples: Here are a few examples of generated Cypher statements for particular questions:
 
 Question: Players with good physique that play for Real Madrid as a defender?
@@ -34,19 +35,22 @@ AND p.LEAGUE_NAME IN ["LaLiga", "SerieA", "PremierLeague", "Bundesliga", "Ligue1
 AND date("1997-01-01") < p.PLAYER_BIRTH_DATE < date("2005-01-01")
 RETURN p
 
+NOTE: There is no BETWEEN as an expression in cypher. Always use "value1 < variable < value2" format
+
 The question is:
 {question}
 """
+
 
 FIND_CYPHER_TEMPLATE = GENERAL_CYPHER_TEMPLATE + FIND_CYPHER_COMMANDS
 FIND_CYPHER_TEMPLATE_W_CONTEXT = GENERAL_CYPHER_TEMPLATE_W_CONTEXT + FIND_CYPHER_COMMANDS
 
 FIND_CYPHER_PROMPT = PromptTemplate(
-    input_variables=["schema", "question"], template=FIND_CYPHER_TEMPLATE
+    input_variables=["schema", "question", "chat_history"], template=FIND_CYPHER_TEMPLATE
 )
 
 FIND_CYPHER_PROMPT_W_CONTEXT = PromptTemplate(
-    input_variables=["schema", "question"], template=FIND_CYPHER_TEMPLATE_W_CONTEXT
+    input_variables=["schema", "question", "chat_history"], template=FIND_CYPHER_TEMPLATE_W_CONTEXT
 )
 
 FIND_QA_TEMPLATE = """You are an assistant that helps to form nice and human understandable answers for football player analysis.
@@ -67,5 +71,5 @@ Question: {question}
 Helpful Answer:"""
 
 FIND_QA_PROMPT = PromptTemplate(
-    input_variables=["context", "question"], template=FIND_QA_TEMPLATE
+    input_variables=["context", "question", "chat_history"], template=FIND_QA_TEMPLATE
 )

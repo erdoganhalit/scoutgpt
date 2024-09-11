@@ -104,6 +104,7 @@ Use only the provided relationship types and properties in the schema.
 Do not use any other relationship types or properties that are not provided.
 Only apply filters on objective attributes mentioned below. If the user question includes subjective descriptions also mentioned below, ignore them.
 Subjective descriptions: fast, has pace, strong, etc.
+IMPORTANT INSRUCTION: Your response should only be the cypher query and nothing else. Never write any introductory or explanation sentences before or after the query. Obey this rule at all cost
 Schema:
 {schema}
 
@@ -117,4 +118,35 @@ GENERAL_CYPHER_PROMPT = PromptTemplate(
 
 GENERAL_CYPHER_PROMPT_W_CONTEXT = PromptTemplate(
     input_variables=["schema", "question"], template=GENERAL_CYPHER_TEMPLATE_W_CONTEXT
+)
+
+SUMMARY_PROMPT = PromptTemplate(
+    input_variables=["chat_history"],
+    template="""
+    Summarize the following conversation between a user and an AI assistant, keeping only the important context needed for future responses. Chat will be about football players. Be sure to keep key information like player names, team names, tournament / league names etc.
+
+    Limit your answer to this number of tokens: {token_limit}
+
+    Chat History: {chat_history}
+    """
+)
+
+DISPATCH_PROMPT = PromptTemplate(
+    input_variables=["question", "chat_history"],
+    template="""
+    Given the below question about football players and the previous conversation history, determine whether this is an 'analysis', 'comparison', or 'find' query.
+    Your answer should be one of the following words: 'analysis', 'comparison', or 'find'. Always with one of these words and one word only. Do not complete it with a sentence.
+    If the question is asking about a specific player it is 'analysis'. If the question is asking about multiple players and their respective qualities it is 'comparison'. If the question describes a player with some criteria, it is 'find'.
+
+    Example:
+    Question: Who are some Central Midfield players from Bundesliga worth between 20-25 million
+    Answer: find
+    Question: Which one is the best at passing
+    Answer: compare
+    Question: How was Haaland's performance last season
+    Answer: analysis
+
+    Chat History: {chat_history}
+    Question: {question} 
+    """
 )

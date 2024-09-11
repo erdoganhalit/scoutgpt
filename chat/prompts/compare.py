@@ -40,12 +40,15 @@ COMPARISON_CYPHER_COMMANDS = """
     "MATCH (p:Player)-[r:PLAYED_IN_WITH_STATS]->(t:Tournament) WHERE p.PLAYER_NAME = 'Erling Haaland' AND t.TOURNAMENT_NAME = 'Premier League' RETURN p, r.totalDuelsWonPercentage AS totalDuelsWonPercentage, r.aerialDuelsWon AS aerialDuelsWon, r.totalDuelsWon AS totalDuelsWon, r.duelLost AS duelLost, r.groundDuelsWonPercentage AS groundDuelsWonPercentage, r.groundDuelsWon AS groundDuelsWon, r.expectedAssists AS expectedAssists, r.totalChippedPasses AS totalChippedPasses, r.totalCross AS totalCross, r.totalPasses AS totalPasses, r.accuratePasses AS accuratePasses, r.totalLongBalls AS totalLongBalls, r.accurateCrossesPercentage AS accurateCrossesPercentage, r.accuratePassesPercentage AS accuratePassesPercentage, r.accurateOppositionHalfPasses AS accurateOppositionHalfPasses, r.totalOwnHalfPasses AS totalOwnHalfPasses, r.inaccuratePasses AS inaccuratePasses, r.accurateLongBallsPercentage AS accurateLongBallsPercentage, r.accurateChippedPasses AS accurateChippedPasses, r.passToAssist AS passToAssist, r.accurateCrosses AS accurateCrosses, r.accurateLongBalls AS accurateLongBalls, r.accurateFinalThirdPasses AS accurateFinalThirdPasses, r.crossesNotClaimed AS crossesNotClaimed, r.bigChancesMissed AS bigChancesMissed, r.attemptPenaltyTarget AS attemptPenaltyTarget, r.attemptPenaltyPost AS attemptPenaltyPost, r.penaltyGoals AS penaltyGoals, r.goals AS goals, r.penaltyConversion AS penaltyConversion, r.goalsFromInsideTheBox AS goalsFromInsideTheBox, r.penaltiesTaken AS penaltiesTaken, r.goalsFromOutsideTheBox AS goalsFromOutsideTheBox, r.goalsAssistsSum AS goalsAssistsSum, r.scoringFrequency AS scoringFrequency, r.goalConversionPercentage AS goalConversionPercentage, r.goalKicks AS goalKicks, r.hitWoodwork AS hitWoodwork, r.goalsPrevented AS goalsPrevented, r.freeKickGoal AS freeKickGoal, r.setPieceConversion AS setPieceConversion, r.shotsOffTarget AS shotsOffTarget, r.totalShots AS totalShots, r.shotsFromOutsideTheBox AS shotsFromOutsideTheBox, r.blockedShots AS blockedShots, r.shotsOnTarget AS shotsOnTarget, r.shotsFromInsideTheBox AS shotsFromInsideTheBox, r.shotFromSetPiece AS shotFromSetPiece, r.clearances AS clearances, r.tacklesWon AS tacklesWon, r.tacklesWonPercentage AS tacklesWonPercentage, r.interceptions AS interceptions, r.errorLeadToShot AS errorLeadToShot, r.errorLeadToGoal AS errorLeadToGoal, r.ownGoals AS ownGoals, r.ballRecovery AS ballRecovery, r.tackles AS tackles, r.highClaims AS highClaims, r.savedShotsFromInsideTheBox AS savedShotsFromInsideTheBox, r.savesParried AS savesParried, r.penaltyFaced AS penaltyFaced, r.saves AS saves, r.penaltySave AS penaltySave, r.savesCaught AS savesCaught, r.cleanSheet AS cleanSheet, r.successfulRunsOut AS successfulRunsOut, r.savedShotsFromOutsideTheBox AS savedShotsFromOutsideTheBox, r.punches AS punches, r.goalsConceded AS goalsConceded, r.goalsConcededOutsideTheBox AS goalsConcededOutsideTheBox, r.goalsConcededInsideTheBox AS goalsConcededInsideTheBox, r.dispossessed AS dispossessed, r.possessionLost AS possessionLost, r.possessionWonAttThird AS possessionWonAttThird, r.yellowRedCards AS yellowRedCards, r.redCards AS redCards, r.fouls AS fouls, r.yellowCards AS yellowCards, r.directRedCards AS directRedCards, r.aerialLost AS aerialLost, r.aerialDuelsWonPercentage AS aerialDuelsWonPercentage, r.touches AS touches, r.totalRating AS totalRating, r.appearances AS appearances, r.type AS type, r.countRating AS countRating, r.totwAppearances AS totwAppearances, r.rating AS rating, r.minutesPlayed AS minutesPlayed, r.substitutionsOut AS substitutionsOut, r.substitutionsIn AS substitutionsIn, r.wasFouled AS wasFouled, r.dribbledPast AS dribbledPast, r.successfulDribbles AS successfulDribbles, r.successfulDribblesPercentage AS successfulDribblesPercentage, r.offsides AS offsides, r.penaltyWon AS penaltyWon, t;"
  ]
 
- The question will include the name of the player and you will search for it in PLAYER_NAME property of Player nodes.
+ The question or the chat history will include the name of the players and you will search for it in PLAYER_NAME property of Player nodes. If there is no player names in the question, look for the names in chat history.
+ 
+ Chat history:
+ {chat_history}
 
  The question is:
  {question}
 
- IMPORTANT NOTE: If the question does not include multiple football player names, then just write 'False' and nothing else. Obey this rule at all cost.
+ 
 
 """
 
@@ -53,11 +56,11 @@ COMPARISON_CYPHER_TEMPLATE = GENERAL_CYPHER_TEMPLATE + COMPARISON_CYPHER_COMMAND
 COMPARISON_CYPHER_TEMPLATE_W_CONTEXT = GENERAL_CYPHER_TEMPLATE_W_CONTEXT + COMPARISON_CYPHER_COMMANDS
 
 COMPARISON_CYPHER_PROMPT = PromptTemplate(
-    input_variables=["schema", "question"], template=COMPARISON_CYPHER_TEMPLATE
+    input_variables=["schema", "question", "chat_history"], template=COMPARISON_CYPHER_TEMPLATE
 )
 
 COMPARISON_CYPHER_PROMPT_W_CONTEXT = PromptTemplate(
-    input_variables=["schema", "question"], template=COMPARISON_CYPHER_TEMPLATE_W_CONTEXT
+    input_variables=["schema", "question", "chat_history"], template=COMPARISON_CYPHER_TEMPLATE_W_CONTEXT
 )
 
 COMPARISON_QA_TEMPLATE = """You are an assistant that helps to form nice and human understandable answers for football player analysis.
@@ -70,6 +73,10 @@ Make the answer sound as a response to the question. Do not mention that you bas
 You can use internal knowledge to support your answer ONLY if the question explicity asks you to. If question does not say that, do ONLY and ONLY use context information.
 
 If the provided information is empty, say that you don't know the answer.
+
+Chat history:
+{chat_history}
+
 Information:
 {context}
 
@@ -77,6 +84,6 @@ Question: {question}
 Helpful Answer:"""
 
 COMPARISON_QA_PROMPT = PromptTemplate(
-    input_variables=["context", "question"], template=COMPARISON_QA_TEMPLATE
+    input_variables=["context", "question", "chat_history"], template=COMPARISON_QA_TEMPLATE
 )
 
